@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.learn.id</groupId>
+    <artifactId>com.learnautomation.learn</artifactId>
+    <version>1.0</version>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </releases>
+            <id>Experitest.repo1</id>
+            <name>YourName</name>
+            <url>https://cloud.experitest.com/repo/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.experitest</groupId>
+            <artifactId>appium</artifactId>
+            <version>4.1.2</version>
+        </dependency>
+    </dependencies>
+</project>
